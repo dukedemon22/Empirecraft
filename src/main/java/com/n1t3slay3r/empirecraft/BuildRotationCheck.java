@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.n1t3slay3r.empirecraft.main;
+package com.n1t3slay3r.empirecraft;
 
 import java.util.Arrays;
 import java.util.List;

@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.n1t3slay3r.empirecraft.Commands;
+package com.n1t3slay3r.empirecraft.commands;
 
-import com.n1t3slay3r.empirecraft.main.BuildRotationCheck;
-import com.n1t3slay3r.empirecraft.main.Main;
-import static com.n1t3slay3r.empirecraft.main.Main.Config;
-import static com.n1t3slay3r.empirecraft.main.Main.econ;
-import static com.n1t3slay3r.empirecraft.main.Main.serverdata;
-import static com.n1t3slay3r.empirecraft.main.Main.structureFolder;
-import static com.n1t3slay3r.empirecraft.main.Main.tempHashMap;
-import static com.n1t3slay3r.empirecraft.main.Main.temparraylist;
-import static com.n1t3slay3r.empirecraft.main.Main.tempfile;
-import static com.n1t3slay3r.empirecraft.main.Main.tempstring;
+import com.n1t3slay3r.empirecraft.BuildRotationCheck;
+import com.n1t3slay3r.empirecraft.Main;
+import static com.n1t3slay3r.empirecraft.Main.Config;
+import static com.n1t3slay3r.empirecraft.Main.econ;
+import static com.n1t3slay3r.empirecraft.Main.serverdata;
+import static com.n1t3slay3r.empirecraft.Main.structureFolder;
+import static com.n1t3slay3r.empirecraft.Main.tempHashMap;
+import static com.n1t3slay3r.empirecraft.Main.temparraylist;
+import static com.n1t3slay3r.empirecraft.Main.tempfile;
+import static com.n1t3slay3r.empirecraft.Main.tempstring;
 import com.sk89q.worldedit.Vector;
 import com.sk89q.worldguard.bukkit.WGBukkit;
 import com.sk89q.worldguard.protection.ApplicableRegionSet;

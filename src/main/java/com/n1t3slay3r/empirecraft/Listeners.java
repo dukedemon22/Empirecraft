@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.n1t3slay3r.empirecraft.main;
+package com.n1t3slay3r.empirecraft;
 
-import com.n1t3slay3r.empirecraft.Commands.MainConversions;
-import static com.n1t3slay3r.empirecraft.main.Main.Config;
-import static com.n1t3slay3r.empirecraft.main.Main.configFile;
-import static com.n1t3slay3r.empirecraft.main.Main.pluginFolder;
-import static com.n1t3slay3r.empirecraft.main.Main.serverdata;
-import static com.n1t3slay3r.empirecraft.main.Main.structureFolder;
-import static com.n1t3slay3r.empirecraft.main.Main.tempHashMap;
-import static com.n1t3slay3r.empirecraft.main.Main.tempfile;
+import com.n1t3slay3r.empirecraft.commands.MainConversions;
+import static com.n1t3slay3r.empirecraft.Main.Config;
+import static com.n1t3slay3r.empirecraft.Main.configFile;
+import static com.n1t3slay3r.empirecraft.Main.pluginFolder;
+import static com.n1t3slay3r.empirecraft.Main.serverdata;
+import static com.n1t3slay3r.empirecraft.Main.structureFolder;
+import static com.n1t3slay3r.empirecraft.Main.tempHashMap;
+import static com.n1t3slay3r.empirecraft.Main.tempfile;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -40,7 +40,6 @@ import static org.bukkit.Material.WATER;
 import static org.bukkit.Material.WOOD;
 import static org.bukkit.Material.WOODEN_DOOR;
 import static org.bukkit.Material.WOOL;
-import org.bukkit.block.Banner;
 import org.bukkit.block.Block;
 import static org.bukkit.block.BlockFace.EAST;
 import static org.bukkit.block.BlockFace.NORTH;

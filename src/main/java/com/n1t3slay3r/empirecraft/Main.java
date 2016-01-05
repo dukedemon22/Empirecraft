@@ -1,11 +1,12 @@
-package com.n1t3slay3r.empirecraft.main;
+package com.n1t3slay3r.empirecraft;
 
-import com.n1t3slay3r.empirecraft.Commands.DiplomacyCommands;
-import com.n1t3slay3r.empirecraft.Commands.MainCommands;
-import com.n1t3slay3r.empirecraft.Commands.MainConversions;
-import com.n1t3slay3r.empirecraft.Commands.ManageCommands;
-import com.n1t3slay3r.empirecraft.Commands.MemberCommands;
-import com.n1t3slay3r.empirecraft.Commands.OwnerCommands;
+import com.n1t3slay3r.empirecraft.commands.DiplomacyCommands;
+import com.n1t3slay3r.empirecraft.commands.MainCommands;
+import com.n1t3slay3r.empirecraft.commands.MainConversions;
+import com.n1t3slay3r.empirecraft.commands.ManageCommands;
+import com.n1t3slay3r.empirecraft.commands.MemberCommands;
+import com.n1t3slay3r.empirecraft.commands.OwnerCommands;
+import com.n1t3slay3r.empirecraft.utils.SLAPI;
 import com.sk89q.worldedit.Vector;
 import com.sk89q.worldguard.bukkit.WGBukkit;
 import com.sk89q.worldguard.protection.ApplicableRegionSet;
@@ -256,10 +257,14 @@ public class Main extends JavaPlugin {
         }
         RepetitiveMethods.test(this);
         getServer().getPluginManager().registerEvents(new Listeners(), this);
+        /*
+         * Disable updater for Snapshot Builds
+         * 
         if (Config.getString("Global Settings.Auto Update Notifier").equals("on")) {
             System.out.println("Checking for updates on bukkit");
             Update updateCheck = new Update(80075, "ed2919ef1dcca33b92ac5571e73d53ba1e474a4e");
         }
+        */
     }
 
     @Override

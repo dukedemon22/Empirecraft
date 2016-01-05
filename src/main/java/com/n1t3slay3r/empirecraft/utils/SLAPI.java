@@ -1,4 +1,4 @@
-package com.n1t3slay3r.empirecraft.main;
+package com.n1t3slay3r.empirecraft.utils;
 
 import java.io.File;
 import java.io.FileInputStream;
