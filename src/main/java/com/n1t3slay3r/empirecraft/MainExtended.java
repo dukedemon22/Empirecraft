@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.n1t3slay3r.empirecraft.main;
+package com.n1t3slay3r.empirecraft;
 
-import com.n1t3slay3r.empirecraft.Commands.DiplomacyCommands;
-import com.n1t3slay3r.empirecraft.Commands.MainConversions;
-import static com.n1t3slay3r.empirecraft.main.Main.Config;
-import static com.n1t3slay3r.empirecraft.main.Main.econ;
-import static com.n1t3slay3r.empirecraft.main.Main.serverdata;
-import static com.n1t3slay3r.empirecraft.main.Main.tempHashMap;
-import static com.n1t3slay3r.empirecraft.main.Main.temparraylist;
-import static com.n1t3slay3r.empirecraft.main.Main.tempstring;
+import com.n1t3slay3r.empirecraft.commands.DiplomacyCommands;
+import com.n1t3slay3r.empirecraft.commands.MainConversions;
+import static com.n1t3slay3r.empirecraft.Main.Config;
+import static com.n1t3slay3r.empirecraft.Main.econ;
+import static com.n1t3slay3r.empirecraft.Main.serverdata;
+import static com.n1t3slay3r.empirecraft.Main.tempHashMap;
+import static com.n1t3slay3r.empirecraft.Main.temparraylist;
+import static com.n1t3slay3r.empirecraft.Main.tempstring;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collection;

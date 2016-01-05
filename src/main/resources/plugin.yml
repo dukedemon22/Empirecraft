@@ -1,12 +1,14 @@
-name: Empirecraft
-main: com.n1t3slay3r.empirecraft.main.Main
-version: 0.9.7
-description: Next gen minecraft diplomacy system
-author: N1T3SLAY3R
-depend: [Vault]
-prefix: Empirecraft
-softdepend: [WorldGuard]
-website: http://dev.bukkit.org/bukkit-plugins/empirecraft/
+name: ${project.name}
+authors: [${pluginAuthors}]
+website: ${project.url}
+description: ${project.description}
+main: ${mainClass}
+version: ${project.version}-b${buildNumber}
+prefix: ${project.name}
+depend:
+    - Vault
+softdepend:
+    - WorldGuard
 commands:
     ec:
         description: Displays all possible commands

@@ -3,13 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.n1t3slay3r.empirecraft.Commands;
+package com.n1t3slay3r.empirecraft.commands;
 
-import com.n1t3slay3r.empirecraft.main.Main;
-import static com.n1t3slay3r.empirecraft.main.Main.Config;
-import static com.n1t3slay3r.empirecraft.main.Main.serverdata;
-import static com.n1t3slay3r.empirecraft.main.Main.tempstring;
-import com.n1t3slay3r.empirecraft.main.SLAPI;
+import com.n1t3slay3r.empirecraft.Main;
+import com.n1t3slay3r.empirecraft.utils.SLAPI;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;

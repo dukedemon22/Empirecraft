@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.n1t3slay3r.empirecraft.Commands;
+package com.n1t3slay3r.empirecraft.commands;
 
-import static com.n1t3slay3r.empirecraft.main.Main.serverdata;
-import static com.n1t3slay3r.empirecraft.main.Main.tempHashMap;
-import static com.n1t3slay3r.empirecraft.main.Main.temparraylist;
+import static com.n1t3slay3r.empirecraft.Main.serverdata;
+import static com.n1t3slay3r.empirecraft.Main.tempHashMap;
+import static com.n1t3slay3r.empirecraft.Main.temparraylist;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;

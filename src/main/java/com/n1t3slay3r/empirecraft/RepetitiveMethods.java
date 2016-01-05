@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.n1t3slay3r.empirecraft.main;
+package com.n1t3slay3r.empirecraft;
 
-import com.n1t3slay3r.empirecraft.Commands.MainConversions;
-import com.n1t3slay3r.empirecraft.Commands.OwnerCommands;
-import static com.n1t3slay3r.empirecraft.main.Main.Config;
-import static com.n1t3slay3r.empirecraft.main.Main.econ;
-import static com.n1t3slay3r.empirecraft.main.Main.serverdata;
-import static com.n1t3slay3r.empirecraft.main.Main.structureFolder;
-import static com.n1t3slay3r.empirecraft.main.Main.tempHashMap;
-import static com.n1t3slay3r.empirecraft.main.Main.temparraylist;
-import static com.n1t3slay3r.empirecraft.main.Main.tempfile;
+import com.n1t3slay3r.empirecraft.commands.MainConversions;
+import com.n1t3slay3r.empirecraft.commands.OwnerCommands;
+import static com.n1t3slay3r.empirecraft.Main.Config;
+import static com.n1t3slay3r.empirecraft.Main.econ;
+import static com.n1t3slay3r.empirecraft.Main.serverdata;
+import static com.n1t3slay3r.empirecraft.Main.structureFolder;
+import static com.n1t3slay3r.empirecraft.Main.tempHashMap;
+import static com.n1t3slay3r.empirecraft.Main.temparraylist;
+import static com.n1t3slay3r.empirecraft.Main.tempfile;
 import java.io.File;
 import java.io.IOException;
 import static java.lang.Math.abs;
@@ -181,7 +181,6 @@ public class RepetitiveMethods {
                                         Material mat;
                                         nx -= cx * 16;
                                         nz -= cz * 16;
-                                        Loop:
                                         do {
                                             nx++;
                                             if (nx - 16 == ((Integer) x - cx) * 16) {
