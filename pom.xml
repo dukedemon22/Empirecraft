@@ -54,7 +54,7 @@
         <!-- Default Buildnumber Value (for custom builds) -->
         <buildNumber>Unknown</buildNumber>
         <!-- Bukkit API Version -->
-        <bukkitVersion>1.8.8-R0.1-SNAPSHOT</bukkitVersion>
+        <bukkitVersion>1.10.2-R0.1-SNAPSHOT</bukkitVersion>
     </properties>
 
     <profiles>
